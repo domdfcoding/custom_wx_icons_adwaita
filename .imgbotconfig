@@ -2,6 +2,6 @@
     "schedule": "weekly",
     "ignoredFiles": [
         "*.svg",
-        "adwaita/wx_icons_adwaita/*",
+        "adwaita/wx_icons_adwaita/*"
     ]
 }
