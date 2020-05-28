@@ -1,20 +1,20 @@
 **************************
-:mod:`custom_wx_icons`
+:mod:`wx_icons_adwaita`
 **************************
 
 .. contents:: Table of Contents
 
-.. automodule:: custom_wx_icons
+.. automodule:: wx_icons_adwaita
     :members:
     :private-members:
     :special-members:
 
 ===================================
-:mod:`custom_wx_icons.__init__`
+:mod:`wx_icons_adwaita.__init__`
 ===================================
 
 
-.. automodule:: custom_wx_icons.__init__
+.. automodule:: wx_icons_adwaita.__init__
     :members:
     :private-members:
     :special-members:
