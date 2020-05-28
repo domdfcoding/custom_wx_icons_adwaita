@@ -31,7 +31,8 @@ python_versions:
 
 # additional lines for MANIFEST.in
 manifest_additional:
-  - "recursive-include wx_icons_adwaita *"
+  - "recursive-include wx_icons_hicolor *"
+  - "make_importable.py"
 
 classifiers:
   # "Environment :: MacOS X"
@@ -58,3 +59,7 @@ classifiers:
 #  - "Development Status :: 7 - Inactive"
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
+
+pkginfo_extra:
+  - "import make_importable"
+  - "make_importable.make_importable(import_name, 'Adwaita')"
