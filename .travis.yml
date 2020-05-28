@@ -24,14 +24,12 @@ stages:
 
   - deploy_releases
 
-before_deploy:
-  - python3 build_icons_from_src.py
-
 jobs:
   include:
     - stage: deploy_pypi
       python: "3.6"
-      script: skip
+      script:
+        - python3 build_icons_from_src.py
       deploy:
         on:
           tags: true
