@@ -32,7 +32,7 @@ python_versions:
 # additional lines for MANIFEST.in
 manifest_additional:
   - "recursive-include wx_icons_hicolor *"
-  - "make_importable.py"
+  - "include make_importable.py"
 
 classifiers:
   # "Environment :: MacOS X"
