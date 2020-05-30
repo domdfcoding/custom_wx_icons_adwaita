@@ -8,7 +8,8 @@ python:
 
 install:
 
-  - pip install pip lxml scour importlib_resources dummy_wx --upgrade
+  - pip install pip lxml scour dummy_wx --upgrade
+  - pip install -r requirements.txt
   - pip install tox tox-travis
 
 
