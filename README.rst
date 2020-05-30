@@ -8,6 +8,8 @@ Adwaita Icon Theme for wxPython
 
 .. end short_desc
 
+This package provides a wxPython wxArtProvider class with icons from the Adwaita Icon Theme.
+
 .. start shields 
 
 .. list-table::
@@ -75,9 +77,25 @@ Adwaita Icon Theme for wxPython
 
 .. end shields
 
-This package provides a wxPython wxArtProvider class with icons from the Adwaita Icon Theme.
+Installation
+===============
 
-To use it in your application:
+.. start installation
+
+``wx_icons_adwaita`` can be installed from PyPI.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install wx_icons_adwaita
+
+.. end installation
+
+Usage
+============
+
+To use ``wx_icons_adwaita`` in your application:
 
 .. code-block:: python
 
@@ -101,14 +119,3 @@ Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.or
 
 Currently the `Client ID` is not used, so just pass `wx.ART_OTHER`.
 
-.. start installation
-
-``wx_icons_adwaita`` can be installed from PyPI.
-
-To install with ``pip``:
-
-.. code-block:: bash
-
-	$ python -m pip install wx_icons_adwaita
-
-.. end installation
