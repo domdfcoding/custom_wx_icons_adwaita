@@ -7,6 +7,9 @@ wx_icons_adwaita
 **Adwaita icon theme for wxPython**
 
 .. end short_desc
+
+This package provides a wxPython wxArtProvider class with icons from the Adwaita Icon Theme.
+
 .. start shields 
 
 .. list-table::
