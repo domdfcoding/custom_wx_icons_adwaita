@@ -13,6 +13,7 @@ enable_conda: False
 
 exclude_files:
   - travis
+  - setup
 
 python_deploy_version: 3.6
 
@@ -60,6 +61,6 @@ classifiers:
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
 
-pkginfo_extra:
-  - "import make_importable"
-  - "make_importable.make_importable(import_name, 'Adwaita')"
+#pkginfo_extra:
+#  - "import make_importable"
+#  - "make_importable.make_importable(import_name, 'Adwaita')"

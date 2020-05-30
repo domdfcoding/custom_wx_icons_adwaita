@@ -92,6 +92,3 @@ classifiers = [
 		]
 
 keywords = ""
-
-import make_importable
-make_importable.make_importable(import_name, 'Adwaita')
