@@ -6,9 +6,6 @@ from __pkginfo__ import *
 
 from setuptools import setup, find_packages
 
-import make_importable
-make_importable.make_importable(import_name, 'Adwaita')
-
 setup(
 		author=author,
 		author_email=author_email,

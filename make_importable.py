@@ -5,9 +5,8 @@ import pathlib
 def make_importable(import_name, theme_name):
 
 	theme_index_path = pathlib.Path(import_name).absolute() / theme_name / "index.theme"
-	print(theme_index_path)
 	assert theme_index_path.is_file()
-	print(theme_index_path.read_text())
+
 	theme_content_root = theme_index_path.parent.absolute()
 
 	parser = configparser.ConfigParser()
@@ -19,8 +18,18 @@ def make_importable(import_name, theme_name):
 		if directory:
 			base_path = theme_content_root
 			for element in directory.split("/"):
-				if not (base_path / element).is_dir():
-					(base_path / element).mkdir()
+				subdir = base_path / element
+				if not subdir.is_dir():
+					subdir.mkdir()
 
-				open(base_path / element / "__init__.py", "w").close()
-				base_path = base_path / element
+				init = subdir / '__init__.py'
+				print(f"Creating {init}")
+				init.open("w").close()
+				base_path = subdir
+
+	print(f"Creating {theme_content_root / '__init__.py'}")
+	open(theme_content_root / "__init__.py", "w").close()
+
+
+if __name__ == '__main__':
+	make_importable("wx_icons_adwaita", "Adwaita")

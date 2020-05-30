@@ -2,5 +2,5 @@ include __pkginfo__.py
 include LICENSE
 include requirements.txt
 recursive-exclude **/__pycache__ *
-recursive-include wx_icons_hicolor *
+recursive-include wx_icons_adwaita *
 include make_importable.py

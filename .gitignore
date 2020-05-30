@@ -78,4 +78,3 @@ build
 *.egg-info
 **/__pycache__
 **/conda
-wx_icons_adwaita/Adwaita/**/__init__.py

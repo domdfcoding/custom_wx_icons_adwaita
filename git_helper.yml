@@ -13,13 +13,9 @@ enable_conda: False
 
 exclude_files:
   - travis
-  - setup
+  - tox
 
 python_deploy_version: 3.6
-
-additional_ignore:
-  # __init__.py files generated during build process
-  - wx_icons_adwaita/Adwaita/**/__init__.py
 
 # Versions to run tests for
 python_versions:
@@ -32,7 +28,7 @@ python_versions:
 
 # additional lines for MANIFEST.in
 manifest_additional:
-  - "recursive-include wx_icons_hicolor *"
+  - "recursive-include wx_icons_adwaita *"
   - "include make_importable.py"
 
 classifiers:
