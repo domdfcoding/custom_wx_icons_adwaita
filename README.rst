@@ -2,6 +2,12 @@
 Adwaita Icon Theme for wxPython
 ********************************
 
+.. start short_desc
+
+**Adwaita icon theme for wxPython**
+
+.. end short_desc
+
 .. start shields 
 
 .. list-table::
@@ -94,3 +100,15 @@ And then the icons can be accessed through wx.ArtProvider:
 Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_ name can be used.
 
 Currently the `Client ID` is not used, so just pass `wx.ART_OTHER`.
+
+.. start installation
+
+``wx_icons_adwaita`` can be installed from PyPI.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install wx_icons_adwaita
+
+.. end installation
