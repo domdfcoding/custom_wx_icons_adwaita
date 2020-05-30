@@ -75,7 +75,7 @@ wx_icons_adwaita
 .. end shields
 
 Installation
-----------------
+===============
 
 .. start installation
 
@@ -100,6 +100,7 @@ Installation
 	:maxdepth: 3
 	:caption: Documentation
 
+	usage
 	docs
 	Source
 	Building
