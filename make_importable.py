@@ -6,6 +6,8 @@ def make_importable(import_name, theme_name):
 
 	theme_index_path = pathlib.Path(__file__).parent.absolute() / import_name / theme_name / "index.theme"
 	print(theme_index_path)
+	assert theme_index_path.is_file()
+	print(theme_index_path.read_text())
 	theme_content_root = theme_index_path.parent.absolute()
 
 	parser = configparser.ConfigParser()
