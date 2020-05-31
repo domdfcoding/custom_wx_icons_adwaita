@@ -29,8 +29,7 @@ jobs:
     - stage: deploy_pypi
       python: "3.6"
       script:
-        - python3 build_icons_from_src.py
-        - python3 make_importable.py
+        - tox -e icons -e build
       deploy:
         on:
           tags: true

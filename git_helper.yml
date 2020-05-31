@@ -57,3 +57,5 @@ classifiers:
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
 
+additional_ignore:
+  - gnome_icon_builder.py
