@@ -57,6 +57,3 @@ classifiers:
   - "Topic :: Software Development :: Libraries :: Python Modules"
   - "Topic :: Software Development :: User Interfaces"
 
-#pkginfo_extra:
-#  - "import make_importable"
-#  - "make_importable.make_importable(import_name, 'Adwaita')"
