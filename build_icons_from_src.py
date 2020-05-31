@@ -32,9 +32,9 @@ import pathlib
 import urllib.request
 
 if not pathlib.Path("gnome_icon_builder.py").is_file():
-	urllib.request.urlretrieve(
+	urllib.request.urlretrieve(  # nosec
 			"https://raw.githubusercontent.com/domdfcoding/custom_wx_icons/master/gnome_icon_builder.py",
-			"gnome_icon_builder.py")  # nosec
+			"gnome_icon_builder.py")
 
 sys.path.append(".")
 
