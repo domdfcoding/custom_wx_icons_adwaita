@@ -24,11 +24,11 @@
 #
 
 # 3rd party
-import importlib_resources
+import importlib_resources  # type: ignore
+from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme  # type: ignore
 
 # this package
 from wx_icons_adwaita import Adwaita
-from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 
 __version__ = "0.1.1"
 

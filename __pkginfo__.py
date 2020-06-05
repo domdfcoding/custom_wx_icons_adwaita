@@ -11,6 +11,7 @@
 # This script based on https://github.com/rocky/python-uncompyle6/blob/master/__pkginfo__.py
 #
 
+# stdlib
 import pathlib
 
 __all__ = [
@@ -53,7 +54,7 @@ entry_points = {
 
 __license__ = "GNU Lesser General Public License v3 or later (LGPLv3+)"
 
-short_desc = "Adwaita icon theme for wxPython"
+short_desc = "Adwaita icon theme for wxPython."
 
 __author__ = author = "Dominic Davis-Foster"
 author_email = "dominic@davis-foster.co.uk"

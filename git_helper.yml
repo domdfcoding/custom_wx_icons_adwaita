@@ -6,7 +6,7 @@ email: "dominic@davis-foster.co.uk"
 version: "0.1.1"
 username: "domdfcoding"
 license: 'LGPLv3+'
-short_desc: 'Adwaita icon theme for wxPython'
+short_desc: 'Adwaita icon theme for wxPython.'
 
 enable_tests: False
 enable_conda: False
@@ -29,7 +29,6 @@ python_versions:
 # additional lines for MANIFEST.in
 manifest_additional:
   - "recursive-include wx_icons_adwaita *"
-  - "include make_importable.py"
 
 classifiers:
   # "Environment :: MacOS X"

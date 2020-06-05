@@ -3,4 +3,5 @@ include LICENSE
 include requirements.txt
 recursive-exclude **/__pycache__ *
 recursive-include wx_icons_adwaita *
-include make_importable.py
+recursive-include wx_icons_adwaita/ *.pyi
+recursive-include wx_icons_adwaita/ py.typed
