@@ -103,7 +103,6 @@ if __name__ == '__main__':
 
 	# for directory in theme.directories:
 	# 	print(directory.icons)
-
 	# 3rd party
 	from wx_icons_hicolor import test, test_random_icons
 
