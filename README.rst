@@ -25,7 +25,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Other
 	  - |license| |language| |commits-since| |commits-latest| |maintained| 
 
-.. |docs| image:: https://readthedocs.org/projects/custom_wx_icons_adwaita/badge/?version=latest
+.. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_adwaita/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
 
@@ -37,15 +37,15 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_adwaita/requirements/?branch=master
 	:alt: Requirements Status
 
-.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_adwaita
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_adwaita?logo=codefactor
 	:target: https://www.codefactor.io/repository/github/domdfcoding/custom_wx_icons_adwaita
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_adwaita.svg
+.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_adwaita
 	:target: https://pypi.org/project/wx_icons_adwaita/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_adwaita.svg
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_adwaita
 	:target: https://pypi.org/project/wx_icons_adwaita/
 	:alt: PyPI - Supported Python Versions
 
