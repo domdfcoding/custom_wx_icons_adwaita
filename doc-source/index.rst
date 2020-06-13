@@ -95,7 +95,7 @@ Installation
 
 		.. prompt:: bash
 
-			pip install git+https://github.com//custom_wx_icons_adwaita@master
+			pip install git+https://github.com/domdfcoding/custom_wx_icons_adwaita@master
 
 .. end installation
 
