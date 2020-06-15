@@ -4,7 +4,7 @@ wx_icons_adwaita
 
 .. start short_desc
 
-**Adwaita icon theme for wxPython.**
+**Adwaita icon theme for wxPython 🐍**
 
 .. end short_desc
 
