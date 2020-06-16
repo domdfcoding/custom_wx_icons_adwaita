@@ -58,3 +58,9 @@ classifiers:
 
 additional_ignore:
   - gnome_icon_builder.py
+
+keywords:
+  - wxpython
+  - icons
+  - iconset
+  - adwaita
