@@ -32,7 +32,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest/?badge=latest
 	:alt: Documentation Status
 	
-.. |docs| image:: [Docs Check](https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Docs%20Check/badge.svg
+.. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Docs%20Check/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Docs+Check%22
 	:alt: Docs Check Status
 

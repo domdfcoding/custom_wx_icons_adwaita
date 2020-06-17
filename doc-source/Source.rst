@@ -1,15 +1,15 @@
-===============================
+*******************************
 Downloading source code
-===============================
+*******************************
 
 The ``wx_icons_adwaita`` source code resides on publicly accessible GitHub servers,
-and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_adwaita
+and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_adwaita"
 
 If you have ``git`` installed, you can clone the repository with the following command:
 
-.. parsed-literal::
+.. code-block:: bash
 
-    $ git clone https://github.com/domdfcoding/custom_wx_icons_adwaita
+    $ git clone https://github.com/domdfcoding/custom_wx_icons_adwaita"
     > Cloning into 'custom_wx_icons_adwaita'...
     > remote: Enumerating objects: 47, done.
     > remote: Counting objects: 100% (47/47), done.
