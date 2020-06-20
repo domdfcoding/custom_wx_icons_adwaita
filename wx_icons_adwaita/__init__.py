@@ -28,7 +28,7 @@ from typing import Any, Optional, Tuple, Union
 
 # 3rd party
 import importlib_resources  # type: ignore
-from wx import wx  # type: ignore
+import wx  # type: ignore
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 from wx_icons_hicolor.icon import Icon
 from wx_icons_hicolor.icon_theme import IconTheme
