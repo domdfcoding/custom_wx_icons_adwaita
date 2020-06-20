@@ -28,7 +28,7 @@ jobs:
     - stage: deploy_pypi
       python: "3.6"
       script:
-        - tox -e icons -e build
+        - tox -e icons -e build 1> /dev/null
       deploy:
         on:
           tags: true
@@ -36,7 +36,7 @@ jobs:
         provider: pypi
         user: "DomDF"
         password:
-          secure: None
+          secure: d4xYo16FQQ+4HJpsK35lvDulUpkD+xuHNo7evVxP88x1e0MmCOlX8lvGwcCsAU74dNAzJHhtWxb8+6oaznGYWOs05G++jKP00S0CfLPxXnPdj+SF3+GEAYeRf6O52dJCqp/qnGxvAKx5kjy1avLV7MKypzFuJykwzHVeSdwBYHaNAqVSj0e5WL1gNlGwe5QWXKPqQmT1CP36zvdvclzZZ+L35BEudE662wKKnS5m91GIzph/m8XiDl/k2B8hir9gxxlKL13O5jvK2BO3Y7ycBqTIATAIN33gPepbJVm8DVYYFiVF02fYvKjbvmSo2rHnezWZAr5bdkKteWlRHU9gHGHlVhleQuWzdwj+FEJRAZp8K3wsfmyXSsCX5PX76E9BBXXiTlnZwT3A8VPuvs6MSU6Lzp1LySE7WzzXMH43VQbnxAF5vUXO9ArbDJdwBoCMIk+wk8c8NOj+9ga91Lq8deH26doGEzmoe1ruMuOxAcuGqLRKUsqnu3UzFD1F1S7l5xHNnyvm4XQoxpSAe/cleBiuu+wcsv5WxZVW7dFE0sbQPZ9GsTE7dyiIWGOgQImnxSEgNCpChc/lG7ypCD94GGWkTx83PFSB6S7lI2XSpPMmyDTNmFkmtwe3pZkPNi+0Oqzw3PaeETurbkBUkuxB9k60wAIZSJPNA7lUO1RE39w=
         distributions: "sdist bdist_wheel"
         skip_existing: true
 

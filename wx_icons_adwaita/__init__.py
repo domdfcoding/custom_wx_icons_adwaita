@@ -23,17 +23,23 @@
 #  MA 02110-1301, USA.
 #
 
+# stdlib
+from typing import Any, Optional, Tuple, Union
+
 # 3rd party
 import importlib_resources  # type: ignore
-from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme  # type: ignore
+from wx import wx  # type: ignore
+from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
+from wx_icons_hicolor.icon import Icon
+from wx_icons_hicolor.icon_theme import IconTheme
 
 # this package
 from wx_icons_adwaita import Adwaita
 
-__version__ = "0.1.1"
+__version__: str = "0.1.1"
 
 
-def version():
+def version() -> str:
 	return f"""wx_icons_adwaita
 Version {__version__}
 Adwaita Icon Theme Version 3.28.0
@@ -45,7 +51,7 @@ with importlib_resources.path(Adwaita, "index.theme") as theme_index_path:
 
 
 class AdwaitaIconTheme(HicolorIconTheme):
-	_hicolor_theme = HicolorIconTheme.create()
+	_hicolor_theme: IconTheme = HicolorIconTheme.create()
 
 	@classmethod
 	def create(cls):
@@ -58,20 +64,29 @@ class AdwaitaIconTheme(HicolorIconTheme):
 
 		return cls.from_configparser(theme_index_path)
 
-	def find_icon(self, icon_name, size, scale, prefer_this_theme=True):
+	def find_icon(
+			self,
+			icon_name: str,
+			size: int,
+			scale: Any,
+			prefer_this_theme: bool = True,
+			) -> Optional[Icon]:
 		"""
+		Searches for the icon with the given name and size.
 
-		:param icon_name:
-		:type icon_name:
-		:param size:
-		:type size:
-		:param scale:
-		:type scale:
+		:param icon_name: The name of the icon to find.
+			Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_
+			name can be used.
+		:type icon_name: str
+		:param size: The desired size of the icon
+		:type size: int
+		:param scale: TODO: Currently does nothing
 		:param prefer_this_theme: Return an icon from this theme even if it has to be resized,
 			rather than a correctly sized icon from the parent theme.
 		:type prefer_this_theme:
-		:return:
-		:rtype:
+
+		:return: The icon if it was found, or None
+		:rtype: Icon or None
 		"""
 
 		icon = self._do_find_icon(icon_name, size, scale, prefer_this_theme)
@@ -83,21 +98,23 @@ class AdwaitaIconTheme(HicolorIconTheme):
 
 
 class wxAdwaitaIconTheme(wxHicolorIconTheme):
-	_adwaita_theme = AdwaitaIconTheme.create()
+	_adwaita_theme: IconTheme = AdwaitaIconTheme.create()
 
-	def CreateBitmap(self, id, client, size):
-		icon = self._adwaita_theme.find_icon(id, size.x, None)
+	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
+		icon = self._adwaita_theme.find_icon(id, size[0], None)
+
 		if icon:
 			print(icon, icon.path)
-			return self.icon2bitmap(icon, size.x)
+			return self.icon2bitmap(icon, size[0])
+
 		else:
-			# return self._humanity_theme.find_icon("image-missing", size.x, None).as_bitmap()
+			# return self._humanity_theme.find_icon("image-missing", size[0], None).as_bitmap()
 			print("Icon not found in Adwaita theme")
 			print(id)
 			return super().CreateBitmap(id, client, size)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 	# theme = AdwaitaIconTheme.from_configparser(theme_index_path)
 	theme = AdwaitaIconTheme.create()
 
