@@ -17,6 +17,7 @@ sys.path.append(os.path.abspath('..'))
 from __pkginfo__ import __version__
 
 
+
 github_url = f"https://github.com/domdfcoding/custom_wx_icons_adwaita"
 
 rst_prolog = f""".. |pkgname| replace:: wx_icons_adwaita
@@ -85,7 +86,7 @@ html_show_sourcelink = False  # True will show link to source
 html_context = {
 		'display_github': True,
 		'github_user': 'domdfcoding',
-		'github_repo': 'custom_wx_icons_adwaita',
+		'github_repo': 'cawdrey',
 		'github_version': 'master',
 		'conf_py_path': '/',
 		}
