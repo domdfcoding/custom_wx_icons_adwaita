@@ -4,4 +4,4 @@ include requirements.txt
 recursive-exclude **/__pycache__ *
 recursive-include wx_icons_adwaita *
 recursive-include wx_icons_adwaita/ *.pyi
-recursive-include wx_icons_adwaita/ py.typed
+include wx_icons_adwaita/py.typed
