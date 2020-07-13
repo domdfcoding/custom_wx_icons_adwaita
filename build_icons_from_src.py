@@ -5,7 +5,7 @@ Script to chop up SVGs into individual sizes
 
 This takes around 15 minutes to run so be patient.
 """
-#  
+#
 #  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -24,7 +24,6 @@ This takes around 15 minutes to run so be patient.
 #  MA 02110-1301, USA.
 #
 
-
 # stdlib
 import sys
 import os
@@ -33,15 +32,14 @@ import urllib.request
 
 if not pathlib.Path("gnome_icon_builder.py").is_file():
 	urllib.request.urlretrieve(  # nosec
-			"https://raw.githubusercontent.com/domdfcoding/custom_wx_icons/master/gnome_icon_builder.py",
-			"gnome_icon_builder.py")
+		"https://raw.githubusercontent.com/domdfcoding/custom_wx_icons/master/gnome_icon_builder.py",
+		"gnome_icon_builder.py")
 
 sys.path.append(".")
 
 # this package
 from gnome_icon_builder import get_scalable_directories, main
 from wx_icons_adwaita import theme_index_path
-
 
 scalable_directories = get_scalable_directories(theme_index_path)
 output_dir = "./wx_icons_adwaita/Adwaita"

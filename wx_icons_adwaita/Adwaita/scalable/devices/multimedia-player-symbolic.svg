@@ -18,7 +18,7 @@
   <defs id='defs7386'/>
   <g inkscape:groupmode='layer' id='layer9' inkscape:label='status' style='display:inline' transform='translate(-61.0002,-467)'/>
   <g inkscape:groupmode='layer' id='layer10' inkscape:label='devices' transform='translate(-61.0002,-467)'>
-    
+
     <path inkscape:connector-curvature='0' d='m 65.468952,468 c -0.82099,0 -1.46875,0.64776 -1.46875,1.46875 l 0,11.0625 c 0,0.82099 0.64776,1.46875 1.46875,1.46875 l 7.0625,0 c 0.82099,0 1.46875,-0.64776 1.46875,-1.46875 l 0,-11.0625 c 0,-0.82099 -0.64776,-1.46875 -1.46875,-1.46875 l -7.0625,0 z m -0.46875,1 8,0 0,5 -8,0 0,-5 z m 4,6 c 1.65685,0 3,1.34315 3,3 0,1.65685 -1.34315,3 -3,3 -1.65685,0 -3,-1.34315 -3,-3 0,-1.65685 1.34315,-3 3,-3 z' id='path16980' style='fill:#bebebe;fill-opacity:1;stroke:none'/>
     <path sodipodi:cx='-171' sodipodi:cy='261' d='m -170,261 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z' id='path16982' sodipodi:rx='1' sodipodi:ry='1' style='fill:#bebebe;fill-opacity:1;stroke:none' transform='matrix(1.5,0,0,1.5,325.5002,86.5)' sodipodi:type='arc'/>
   </g>

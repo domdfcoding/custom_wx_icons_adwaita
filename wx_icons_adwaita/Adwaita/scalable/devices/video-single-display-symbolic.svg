@@ -22,7 +22,7 @@
   </defs>
   <g inkscape:groupmode='layer' id='layer9' inkscape:label='status' style='display:inline' transform='translate(-301.0002,-547)'/>
   <g inkscape:groupmode='layer' id='layer10' inkscape:label='devices' style='display:inline' transform='translate(-301.0002,-547)'>
-    
+
     <path inkscape:connector-curvature='0' d='m 304.0002,548 c -1.662,0 -3,1.338 -3,3 v 7 c 0,1.662 1.338,3 3,3 h 10 c 1.662,0 3,-1.338 3,-3 v -7 c 0,-1.662 -1.338,-3 -3,-3 z m 4,4 h 2 v 6 h -2 v -4 h -1 v -1 c 0.47533,-0.0777 0.81922,-0.39206 1,-1 z' id='path5572' style='fill:#bebebe;fill-opacity:1;stroke:none'/>
     <path inkscape:connector-curvature='0' d='m 309.0002,563 c 3,0 4,-1 4,-1 h -1 -6 -1 c 0,0 1,1 4,1 z' id='path5574' sodipodi:nodetypes='sccccs' style='fill:#bebebe;fill-opacity:1;stroke:none'/>
   </g>
