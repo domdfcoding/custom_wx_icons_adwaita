@@ -46,8 +46,8 @@ Adwaita Icon Theme Version 3.28.0
 """
 
 
-with importlib_resources.path(Adwaita, "index.theme") as theme_index_path:
-	theme_index_path = str(theme_index_path)
+with importlib_resources.path(Adwaita, "index.theme") as theme_index_path_:
+	theme_index_path = str(theme_index_path_)
 
 
 class AdwaitaIconTheme(HicolorIconTheme):
@@ -59,8 +59,8 @@ class AdwaitaIconTheme(HicolorIconTheme):
 		Create an instance of the Adwaita Icon Theme
 		"""
 
-		with importlib_resources.path(Adwaita, "index.theme") as theme_index_path:
-			theme_index_path = str(theme_index_path)
+		with importlib_resources.path(Adwaita, "index.theme") as theme_index_path_:
+			theme_index_path = str(theme_index_path_)
 
 		return cls.from_configparser(theme_index_path)
 
