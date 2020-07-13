@@ -25,7 +25,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained|
 	* - Other
-	  - |license| |language| |requires|
+	  - |license| |language| |requires| |pre_commit|
 
 .. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_adwaita/latest?logo=read-the-docs
 	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest/?badge=latest
@@ -88,6 +88,10 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2020
 	:alt: Maintenance
+
+.. |pre_commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+	:target: https://github.com/pre-commit/pre-commit
+	:alt: pre-commit
 
 .. end shields
 

@@ -50,7 +50,7 @@ pypi_name = "wx_icons_adwaita"
 import_name = "wx_icons_adwaita"
 py_modules = []
 entry_points = {
-		"console_scripts": []
+		"console_scripts": [],
 		}
 
 __license__ = "GNU Lesser General Public License v3 or later (LGPLv3+)"
