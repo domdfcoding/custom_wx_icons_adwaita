@@ -25,9 +25,9 @@ This takes around 15 minutes to run so be patient.
 #
 
 # stdlib
-import sys
 import os
 import pathlib
+import sys
 import urllib.request
 
 if not pathlib.Path("gnome_icon_builder.py").is_file():
@@ -37,8 +37,10 @@ if not pathlib.Path("gnome_icon_builder.py").is_file():
 
 sys.path.append(".")
 
-# this package
+# 3rd party
 from gnome_icon_builder import get_scalable_directories, main
+
+# this package
 from wx_icons_adwaita import theme_index_path
 
 scalable_directories = get_scalable_directories(theme_index_path)
