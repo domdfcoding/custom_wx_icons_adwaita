@@ -1,7 +1,7 @@
 include __pkginfo__.py
 include LICENSE
 include requirements.txt
-recursive-exclude **/__pycache__ *
-recursive-include wx_icons_adwaita *
+prune **/__pycache__
+recursive-include wx_icons_adwaita *.png *.svg *.theme
 recursive-include wx_icons_adwaita *.pyi
 include wx_icons_adwaita/py.typed
