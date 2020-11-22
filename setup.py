@@ -12,13 +12,10 @@ sys.path.append('.')
 # this package
 from __pkginfo__ import *  # pylint: disable=wildcard-import
 
-
-
 setup(
-		description='Adwaita icon theme for wxPython\u2002🐍',
+		description="Adwaita icon theme for wxPython 🐍",
 		extras_require=extras_require,
 		install_requires=install_requires,
 		py_modules=[],
 		version=__version__,
-
 		)
