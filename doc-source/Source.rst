@@ -3,7 +3,7 @@ Downloading source code
 =========================
 
 The ``wx_icons_adwaita`` source code is available on GitHub,
-and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_adwaita"
+and can be accessed from the following URL: https://github.com/domdfcoding/custom_wx_icons_adwaita
 
 If you have ``git`` installed, you can clone the repository with the following command:
 
