@@ -35,7 +35,7 @@ if not pathlib.Path("gnome_icon_builder.py").is_file():
 		"https://raw.githubusercontent.com/domdfcoding/custom_wx_icons/master/gnome_icon_builder.py",
 		"gnome_icon_builder.py")
 
-sys.path.append(".")
+sys.path.append('.')
 
 # 3rd party
 from gnome_icon_builder import get_scalable_directories, main
@@ -49,4 +49,4 @@ output_dir = "./wx_icons_adwaita/Adwaita"
 # DPI multipliers to render at
 dpis = [1]
 
-main(os.path.join('.', 'svg_src'), dpis, output_dir, scalable_directories)
+main(os.path.join('.', "svg_src"), dpis, output_dir, scalable_directories)
