@@ -3,7 +3,7 @@ repo_name: custom_wx_icons_adwaita
 copyright_years: "2020"
 author: "Dominic Davis-Foster"
 email: "dominic@davis-foster.co.uk"
-version: "0.1.2"
+version: "0.2.0"
 username: "domdfcoding"
 license: 'LGPLv3+'
 short_desc: 'Adwaita icon theme for wxPython 🐍'

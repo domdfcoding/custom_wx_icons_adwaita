@@ -42,7 +42,7 @@ from wx_icons_adwaita import Adwaita
 
 __all__ = ["AdwaitaIconTheme", "version", "wxAdwaitaIconTheme"]
 
-__version__: str = "0.1.2"
+__version__: str = "0.2.0"
 
 
 def version() -> str:
