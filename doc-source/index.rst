@@ -117,6 +117,11 @@ Installation
 
 	usage
 	docs
+
+.. toctree::
+	:maxdepth: 3
+	:caption: Contributing
+
 	contributing
 	Source
 

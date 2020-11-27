@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 #
 #  __init__.py
+"""
+Adwaita icon theme for wxPython.
+"""
 #
 #  Copyright (C) 2020 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
@@ -29,6 +32,7 @@ from typing import Any, Optional, Tuple, Union
 # 3rd party
 import importlib_resources
 import wx  # type: ignore
+from domdf_python_tools.doctools import prettify_docstrings
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 from wx_icons_hicolor.icon import Icon
 from wx_icons_hicolor.icon_theme import IconTheme
@@ -42,6 +46,10 @@ __version__: str = "0.1.2"
 
 
 def version() -> str:
+	"""
+	Returns the library and theme versions.
+	"""
+
 	return f"""wx_icons_adwaita
 Version {__version__}
 Adwaita Icon Theme Version 3.28.0
@@ -52,13 +60,36 @@ with importlib_resources.path(Adwaita, "index.theme") as theme_index_path_:
 	theme_index_path = str(theme_index_path_)
 
 
+@prettify_docstrings
 class AdwaitaIconTheme(HicolorIconTheme):
+	"""
+	The Adwaita Icon Theme.
+
+	:param name: short name of the icon theme, used in e.g. lists when selecting themes.
+	:param comment: longer string describing the theme
+	:param inherits: The name of the theme that this theme inherits from. If an icon name is not found
+		in the current theme, it is searched for in the inherited theme (and recursively in all the
+		inherited themes).
+
+		If no theme is specified implementations are required to add the "hicolor" theme to the
+		inheritance tree. An implementation may optionally add other default themes in between the last
+		specified theme and the hicolor theme.
+	:param directories: list of subdirectories for this theme. For every subdirectory there
+		must be a section in the index.theme file describing that directory.
+	:param scaled_directories: Additional list of subdirectories for this theme, in addition to the ones
+		in Directories. These directories should only be read by implementations supporting scaled
+		directories and was added to keep compatibility with old implementations that don't support these.
+	:param hidden: Whether to hide the theme in a theme selection user interface. This is used for things
+		such as fallback-themes that are not supposed to be visible to the user.
+	:param example: The name of an icon that should be used as an example of how this theme looks.
+	"""
+
 	_hicolor_theme: IconTheme = HicolorIconTheme.create()
 
 	@classmethod
 	def create(cls):
 		"""
-		Create an instance of the Adwaita Icon Theme
+		Create an instance of the Adwaita Icon Theme.
 		"""
 
 		with importlib_resources.path(Adwaita, "index.theme") as theme_index_path_:
@@ -77,18 +108,15 @@ class AdwaitaIconTheme(HicolorIconTheme):
 		Searches for the icon with the given name and size.
 
 		:param icon_name: The name of the icon to find.
-			Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_
+			Any `FreeDesktop Icon Theme Specification
+			<https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_
 			name can be used.
-		:type icon_name: str
 		:param size: The desired size of the icon
-		:type size: int
 		:param scale: TODO: Currently does nothing
 		:param prefer_this_theme: Return an icon from this theme even if it has to be resized,
 			rather than a correctly sized icon from the parent theme.
-		:type prefer_this_theme:
 
-		:return: The icon if it was found, or None
-		:rtype: Icon or None
+		:return: The icon if it was found, or :py:obj:`None`.
 		"""
 
 		icon = self._do_find_icon(icon_name, size, scale, prefer_this_theme)
@@ -99,10 +127,29 @@ class AdwaitaIconTheme(HicolorIconTheme):
 			return self._hicolor_theme.find_icon(icon_name, size, scale)
 
 
+@prettify_docstrings
 class wxAdwaitaIconTheme(wxHicolorIconTheme):
+	"""
+	:class:`wx.ArtProvider` subclass providing the Adwaita Icon Theme.
+	"""
+
 	_adwaita_theme: IconTheme = AdwaitaIconTheme.create()
 
-	def CreateBitmap(self, id: Any, client: Any, size: Union[Tuple[int], wx.Size]) -> wx.Bitmap:
+	def CreateBitmap(
+			self,
+			id: Any,  # noqa: A002
+			client: Any,
+			size: Union[Tuple[int], wx.Size],
+			) -> wx.Bitmap:
+		"""
+		Returns the requested resource.
+
+		:param id: Unique identifier of the bitmap.
+		:param client: Identifier of the client (i.e. who is asking for the bitmap). This only serves as a hint.
+		:param size: Preferred size of the bitmap. The function may return a bitmap of different dimensions;
+			it will be automatically rescaled to meet client’s request.
+		"""
+
 		icon = self._adwaita_theme.find_icon(id, size[0], None)
 
 		if icon:
