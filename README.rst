@@ -19,33 +19,43 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |travis| |actions_windows| |actions_macos| |codefactor| |pre_commit_ci|
+	  - |actions_linux| |actions_windows| |actions_macos|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
-	  - |commits-latest| |commits-since| |maintained|
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
+	* - QA
+	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
 	* - Other
-	  - |license| |language| |requires| |pre_commit|
+	  - |license| |language| |requires|
 
 .. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_adwaita/latest?logo=read-the-docs
-	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest/?badge=latest
+	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Docs%20Check/badge.svg
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Docs+Check%22
 	:alt: Docs Check Status
 
-.. |travis| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Linux%20Tests/badge.svg
-	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Linux+Tests%22
+.. |actions_linux| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Linux/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Linux%22
 	:alt: Linux Test Status
 
-.. |actions_windows| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Windows%20Tests/badge.svg
-	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Windows+Tests%22
+.. |actions_windows| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Windows/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Windows%22
 	:alt: Windows Test Status
 
-.. |actions_macos| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/macOS%20Tests/badge.svg
-	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22macOS+Tests%22
+.. |actions_macos| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/macOS/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22macOS%22
 	:alt: macOS Test Status
+
+.. |actions_flake8| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Flake8/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22Flake8%22
+	:alt: Flake8 Status
+
+.. |actions_mypy| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/mypy/badge.svg
+	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22mypy%22
+	:alt: mypy status
 
 .. |requires| image:: https://requires.io/github/domdfcoding/custom_wx_icons_adwaita/requirements.svg?branch=master
 	:target: https://requires.io/github/domdfcoding/custom_wx_icons_adwaita/requirements/?branch=master
@@ -89,9 +99,9 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2020
 	:alt: Maintenance
 
-.. |pre_commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
-	:target: https://github.com/pre-commit/pre-commit
-	:alt: pre-commit
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
+	:target: https://pypi.org/project/wx_icons_adwaita/
+	:alt: PyPI - Downloads
 
 .. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/custom_wx_icons_adwaita/master.svg
 	:target: https://results.pre-commit.ci/latest/github/domdfcoding/custom_wx_icons_adwaita/master
