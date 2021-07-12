@@ -25,7 +25,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
 	  - |license| |language| |requires|
 
@@ -102,10 +102,6 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
 	:target: https://pypi.org/project/wx_icons_adwaita/
 	:alt: PyPI - Downloads
-
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/custom_wx_icons_adwaita/master.svg
-	:target: https://results.pre-commit.ci/latest/github/domdfcoding/custom_wx_icons_adwaita/master
-	:alt: pre-commit.ci status
 
 .. end shields
 
