@@ -60,7 +60,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		:workflow: mypy
 		:alt: mypy status
 
-	.. |requires| requires-io-shield::
+	.. |requires| image:: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_adwaita/badge.svg
+		:target: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_adwaita/
 		:alt: Requirements Status
 
 	.. |codefactor| codefactor-shield::
@@ -102,7 +103,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2021
+	.. |maintained| maintained-shield:: 2022
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
