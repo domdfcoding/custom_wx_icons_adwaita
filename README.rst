@@ -57,8 +57,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_adwaita/badge.svg
-	:target: https://dependency-dash.herokuapp.com/github/domdfcoding/custom_wx_icons_adwaita/
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_adwaita/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_adwaita/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_adwaita?logo=codefactor
