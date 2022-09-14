@@ -25,7 +25,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
 	  - |license| |language| |requires|
 
@@ -57,8 +57,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://requires.io/github/domdfcoding/custom_wx_icons_adwaita/requirements.svg?branch=master
-	:target: https://requires.io/github/domdfcoding/custom_wx_icons_adwaita/requirements/?branch=master
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_adwaita/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/custom_wx_icons_adwaita/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/custom_wx_icons_adwaita?logo=codefactor
@@ -96,16 +96,12 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2021
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
 	:target: https://pypi.org/project/wx_icons_adwaita/
 	:alt: PyPI - Downloads
-
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/custom_wx_icons_adwaita/master.svg
-	:target: https://results.pre-commit.ci/latest/github/domdfcoding/custom_wx_icons_adwaita/master
-	:alt: pre-commit.ci status
 
 .. end shields
 
