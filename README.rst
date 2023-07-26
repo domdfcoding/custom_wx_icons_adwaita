@@ -29,8 +29,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Other
 	  - |license| |language| |requires|
 
-.. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_adwaita/latest?logo=read-the-docs
-	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest
+.. |docs| image:: https://img.shields.io/readthedocs/custom-wx-icons-adwaita/latest?logo=read-the-docs
+	:target: https://custom-wx-icons-adwaita.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Docs%20Check/badge.svg
@@ -96,7 +96,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2023
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita

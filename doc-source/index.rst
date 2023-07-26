@@ -33,7 +33,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		  - |license| |language| |requires|
 
 	.. |docs| rtfd-shield::
-		:project: custom_wx_icons_adwaita
+		:project: custom-wx-icons-adwaita
 		:alt: Documentation Build Status
 
 	.. |docs_check| actions-shield::
@@ -103,7 +103,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2022
+	.. |maintained| maintained-shield:: 2023
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
