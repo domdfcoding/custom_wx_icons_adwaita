@@ -7,9 +7,8 @@ name = "wx_icons_adwaita"
 version = "0.2.0"
 description = "Adwaita icon theme for wxPython 🐍"
 readme = "README.rst"
-keywords = [ "adwaita", "icons", "iconset", "wxpython",]
-dynamic = [ "dependencies",]
 requires-python = ">=3.6.1"
+keywords = [ "adwaita", "icons", "iconset", "wxpython",]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Environment :: X11 Applications :: GTK",
@@ -28,6 +27,7 @@ classifiers = [
     "Topic :: Software Development :: User Interfaces",
     "Typing :: Typed",
 ]
+dynamic = [ "dependencies",]
 
 [[project.authors]]
 name = "Dominic Davis-Foster"
@@ -41,7 +41,7 @@ file = "LICENSE"
 Homepage = "https://github.com/domdfcoding/custom_wx_icons_adwaita"
 "Issue Tracker" = "https://github.com/domdfcoding/custom_wx_icons_adwaita/issues"
 "Source Code" = "https://github.com/domdfcoding/custom_wx_icons_adwaita"
-Documentation = "https://custom_wx_icons_adwaita.readthedocs.io/en/latest"
+Documentation = "https://custom-wx-icons-adwaita.readthedocs.io/en/latest"
 
 [tool.whey]
 base-classifiers = [
@@ -147,7 +147,7 @@ include-package-data = true
 platforms = [ "Windows", "macOS", "Linux",]
 
 [tool.mypy]
-python_version = "3.6"
+python_version = "3.8"
 namespace_packages = true
 check_untyped_defs = true
 warn_unused_ignores = true

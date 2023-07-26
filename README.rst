@@ -29,8 +29,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	* - Other
 	  - |license| |language| |requires|
 
-.. |docs| image:: https://img.shields.io/readthedocs/custom_wx_icons_adwaita/latest?logo=read-the-docs
-	:target: https://custom_wx_icons_adwaita.readthedocs.io/en/latest
+.. |docs| image:: https://img.shields.io/readthedocs/custom-wx-icons-adwaita/latest?logo=read-the-docs
+	:target: https://custom-wx-icons-adwaita.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
 .. |docs_check| image:: https://github.com/domdfcoding/custom_wx_icons_adwaita/workflows/Docs%20Check/badge.svg
@@ -96,7 +96,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2023
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
@@ -127,9 +127,12 @@ To use ``wx_icons_adwaita`` in your application:
 
 .. code-block:: python
 
+	# this package
 	from wx_icons_adwaita import wxAdwaitaIconTheme
 
+
 	class MyApp(wx.App):
+
 		def OnInit(self):
 			wx.ArtProvider.Push(wxAdwaitaIconTheme())
 			self.frame = TestFrame(None, wx.ID_ANY)
@@ -141,7 +144,7 @@ And then the icons can be accessed through wx.ArtProvider:
 
 .. code-block:: python
 
-	wx.ArtProvider.GetBitmap('document-new', wx.ART_OTHER, wx.Size(48, 48))
+	wx.ArtProvider.GetBitmap("document-new", wx.ART_OTHER, wx.Size(48, 48))
 
 Any `FreeDesktop Icon Theme Specification <https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html>`_ name can be used.
 
