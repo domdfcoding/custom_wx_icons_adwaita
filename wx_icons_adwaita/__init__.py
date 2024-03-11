@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 #
 #  __init__.py
 """
@@ -27,11 +27,11 @@ Adwaita icon theme for wxPython.
 #
 
 # stdlib
-from typing import Any, Optional, Tuple, Union
+from typing import Any, Optional, Tuple, Type, Union
 
 # 3rd party
-import importlib_resources
-import wx  # type: ignore
+import wx  # type: ignore[import]
+from domdf_python_tools.compat import importlib_resources
 from domdf_python_tools.doctools import prettify_docstrings
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
 from wx_icons_hicolor.icon import Icon
@@ -47,7 +47,7 @@ __version__: str = "0.2.0"
 
 def version() -> str:
 	"""
-	Returns the library and theme versions.
+	Returns the version of this package and the icon theme, formatted for printing.
 	"""
 
 	return f"""wx_icons_adwaita
@@ -87,7 +87,7 @@ class AdwaitaIconTheme(HicolorIconTheme):
 	_hicolor_theme: IconTheme = HicolorIconTheme.create()
 
 	@classmethod
-	def create(cls):
+	def create(cls: Type["AdwaitaIconTheme"]) -> "AdwaitaIconTheme":
 		"""
 		Create an instance of the Adwaita Icon Theme.
 		"""
@@ -170,7 +170,8 @@ if __name__ == "__main__":
 	# for directory in theme.directories:
 	# 	print(directory.icons)
 	# 3rd party
-	from wx_icons_hicolor import test, test_random_icons
+	# from wx_icons_hicolor import test, test_random_icons
+	from wx_icons_hicolor import test
 
 	# test_random_icons(theme)
 	test.test_icon_theme(theme, show_success=False)

@@ -1,5 +1,4 @@
-domdf-python-tools>=1.6.0
-importlib-resources>=1.0.2
+domdf-python-tools>=3.8.0.post2
 wx-icons-hicolor>=0.2.0
 wxpython>=4.0.7; platform_system == "Windows" and python_version < "3.9"
 wxpython>=4.0.7; platform_system == "Darwin" and python_version < "3.9"
