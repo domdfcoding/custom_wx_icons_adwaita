@@ -39,5 +39,5 @@ known_third_party = [
     "wx_icons_hicolor",
     "wxpython",
 ]
-known_first_party = "wx_icons_adwaita"
+known_first_party = [ "wx_icons_adwaita",]
 line_length = 115
