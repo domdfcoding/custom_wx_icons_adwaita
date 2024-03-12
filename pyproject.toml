@@ -164,6 +164,9 @@ order = 10
 order = 30
 include = false
 
+[tool.dep_checker.name_mapping]
+wxpython = "wx"
+
 [tool.snippet-fmt.languages.python]
 reformat = true
 
