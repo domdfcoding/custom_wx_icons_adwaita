@@ -7,7 +7,7 @@ name = "wx_icons_adwaita"
 version = "0.2.0"
 description = "Adwaita icon theme for wxPython 🐍"
 readme = "README.rst"
-requires-python = ">=3.6.1"
+requires-python = ">=3.7"
 keywords = [ "adwaita", "icons", "iconset", "wxpython",]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -18,7 +18,6 @@ classifiers = [
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: Implementation :: CPython",
@@ -53,7 +52,7 @@ base-classifiers = [
     "Topic :: Software Development :: User Interfaces",
     "Typing :: Typed",
 ]
-python-versions = [ "3.6", "3.7", "3.8",]
+python-versions = [ "3.7", "3.8",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "LGPL-3.0-or-later"
