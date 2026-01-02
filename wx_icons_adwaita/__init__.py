@@ -30,7 +30,7 @@ Adwaita icon theme for wxPython.
 from typing import Any, Optional, Tuple, Type, Union
 
 # 3rd party
-import wx  # type: ignore[import]
+import wx  # type: ignore[import-not-found]
 from domdf_python_tools.compat import importlib_resources
 from domdf_python_tools.doctools import prettify_docstrings
 from wx_icons_hicolor import HicolorIconTheme, wxHicolorIconTheme
