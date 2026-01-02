@@ -96,7 +96,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://github.com/domdfcoding/custom_wx_icons_adwaita/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
