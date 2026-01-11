@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wx_icons_adwaita"
-version = "0.2.0"
+version = "0.3.0"
 description = "Adwaita icon theme for wxPython 🐍"
 readme = "README.rst"
 requires-python = ">=3.7"
