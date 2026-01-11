@@ -100,7 +100,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
-	:target: https://pypi.org/project/wx_icons_adwaita/
+	:target: https://pypistats.org/packages/wx_icons_adwaita
 	:alt: PyPI - Downloads
 
 .. end shields
