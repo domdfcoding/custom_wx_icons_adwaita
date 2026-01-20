@@ -118,8 +118,9 @@ Installation
 
 .. start installation
 
-.. installation:: wx_icons_adwaita
+.. installation:: custom_wx_icons_adwaita
 	:pypi:
+	:pypi-name: wx-icons-adwaita
 	:github:
 
 .. end installation

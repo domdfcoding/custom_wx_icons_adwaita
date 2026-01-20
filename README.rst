@@ -116,7 +116,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install wx_icons_adwaita
+	$ python -m pip install wx-icons-adwaita
 
 .. end installation
 
