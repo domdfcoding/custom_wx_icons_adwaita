@@ -68,22 +68,22 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		:alt: CodeFactor Grade
 
 	.. |pypi-version| pypi-shield::
-		:project: wx_icons_adwaita
+		:project: wx-icons-adwaita
 		:version:
 		:alt: PyPI - Package Version
 
 	.. |supported-versions| pypi-shield::
-		:project: wx_icons_adwaita
+		:project: wx-icons-adwaita
 		:py-versions:
 		:alt: PyPI - Supported Python Versions
 
 	.. |supported-implementations| pypi-shield::
-		:project: wx_icons_adwaita
+		:project: wx-icons-adwaita
 		:implementations:
 		:alt: PyPI - Supported Implementations
 
 	.. |wheel| pypi-shield::
-		:project: wx_icons_adwaita
+		:project: wx-icons-adwaita
 		:wheel:
 		:alt: PyPI - Wheel
 
@@ -107,7 +107,7 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
-		:project: wx_icons_adwaita
+		:project: wx-icons-adwaita
 		:downloads: month
 		:alt: PyPI - Downloads
 

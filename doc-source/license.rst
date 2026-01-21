@@ -7,4 +7,4 @@ License
 .. license-info:: LGPL-3.0
 
 .. license::
-	:py: wx_icons_adwaita
+	:py: wx-icons-adwaita
