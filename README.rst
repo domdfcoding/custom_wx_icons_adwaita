@@ -65,20 +65,20 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 	:target: https://www.codefactor.io/repository/github/domdfcoding/custom_wx_icons_adwaita
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/wx_icons_adwaita
-	:target: https://pypi.org/project/wx_icons_adwaita/
+.. |pypi-version| image:: https://img.shields.io/pypi/v/wx-icons-adwaita
+	:target: https://pypi.org/project/wx-icons-adwaita/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx_icons_adwaita?logo=python&logoColor=white
-	:target: https://pypi.org/project/wx_icons_adwaita/
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wx-icons-adwaita?logo=python&logoColor=white
+	:target: https://pypi.org/project/wx-icons-adwaita/
 	:alt: PyPI - Supported Python Versions
 
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/wx_icons_adwaita
-	:target: https://pypi.org/project/wx_icons_adwaita/
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/wx-icons-adwaita
+	:target: https://pypi.org/project/wx-icons-adwaita/
 	:alt: PyPI - Supported Implementations
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/wx_icons_adwaita
-	:target: https://pypi.org/project/wx_icons_adwaita/
+.. |wheel| image:: https://img.shields.io/pypi/wheel/wx-icons-adwaita
+	:target: https://pypi.org/project/wx-icons-adwaita/
 	:alt: PyPI - Wheel
 
 .. |license| image:: https://img.shields.io/github/license/domdfcoding/custom_wx_icons_adwaita
@@ -99,8 +99,8 @@ This package provides a wxPython wxArtProvider class with icons from the Adwaita
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx_icons_adwaita
-	:target: https://pypistats.org/packages/wx_icons_adwaita
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wx-icons-adwaita
+	:target: https://pypistats.org/packages/wx-icons-adwaita
 	:alt: PyPI - Downloads
 
 .. end shields
@@ -116,7 +116,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install wx_icons_adwaita
+	$ python -m pip install wx-icons-adwaita
 
 .. end installation
 
